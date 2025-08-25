@@ -1,0 +1,6 @@
+- label: Refereed Journal Articles
+  query: '@*[keywords~=reviewed]'
+- label: Pre-prints
+  query: '@*[keywords~="pre-print"]'
+- label: Submitted & In progress
+  query: '@*[keywords~="sub"]'

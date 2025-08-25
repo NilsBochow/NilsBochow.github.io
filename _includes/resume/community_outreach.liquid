@@ -1,0 +1,91 @@
+{%- assign co = data[1] -%}
+
+{%- comment -%}
+  Subsection: Outreach
+{%- endcomment -%}
+{% if co.outreach and co.outreach.size > 0 %}
+  <h5 class="mt-1 mb-2 ml-1 ml-md-1 font-weight-bold">Outreach</h5>
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% assign items = co.outreach | sort: 'year' | reverse %}
+    {% for content in items %}
+      <li class="list-group-item">
+        <div class="row">
+          <!-- Year badge (left) -->
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{ content.year }}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Body (right) -->
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              {% if content.role %}<span>{{ content.role }}</span>{% endif %}
+              {% if content.topic %}{% if content.role %}: {% endif %}{{ content.topic }}{% endif %}
+            </h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {% if content.venue %}{{ content.venue }}{% endif %}
+              {% if content.location %}{% if content.venue %}, {% endif %}{{ content.location }}{% endif %}
+            </h6>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{%- comment -%}
+  Subsection: Popular Scientific Articles
+{%- endcomment -%}
+{% if co.popular_articles and co.popular_articles.size > 0 %}
+  <h5 class="mt-4 mb-2 ml-1 ml-md-1 font-weight-bold">Popular Scientific Articles</h5>
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% assign items = co.popular_articles | sort: 'year' | reverse %}
+    {% for content in items %}
+      <li class="list-group-item">
+        <div class="row">
+          <!-- Year badge (left) -->
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{ content.year }}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Body (right) -->
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              {% if content.url %}
+                <a href="{{ content.url }}">{{ content.title }}</a>
+              {% else %}
+                {{ content.title }}
+              {% endif %}
+            </h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {% if content.authors and content.authors.size > 0 %}
+                {{ content.authors | join: ", " }} ·
+              {% endif %}
+              {{ content.outlet }}
+              {% if content.pages %}, {{ content.pages }}{% endif %}
+            </h6>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

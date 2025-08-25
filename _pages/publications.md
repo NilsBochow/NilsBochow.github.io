@@ -13,8 +13,13 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="publications" markdown="1">
 
-{% bibliography %}
+### Journal Articles & Pre-prints
+{% bibliography -f papers --query @* --group_by year --group_order descending %}
+
+### Data & Software
+{% bibliography -f data_software --query @* --group_by year --group_order descending %}
 
 </div>
+

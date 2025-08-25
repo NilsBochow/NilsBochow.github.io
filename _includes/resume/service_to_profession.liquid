@@ -1,0 +1,25 @@
+{% assign items = data[1] %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign sorted = items | sort: 'year' | reverse %}
+  {% for content in sorted %}
+    <li class="list-group-item">
+      <div class="row">
+        <!-- Full-width body (no year/period column) -->
+        <div class="col-12 mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
+            {% if content.role %}{{ content.role }}{% endif %}
+          </h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+            {% if content.url %}
+              <a href="{{ content.url }}">{{ content.organization }}</a>
+            {% else %}
+              {{ content.organization }}
+            {% endif %}
+            {% if content.details %} · {{ content.details }}{% endif %}
+          </h6>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
