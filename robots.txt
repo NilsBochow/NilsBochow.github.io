@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nisbochow.github.io/sitemap.xml
+Sitemap: https://nilsbochow.github.io/sitemap.xml
