@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="nord-mountain-badge-dark.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="8.8277862"
+     inkscape:cx="26.563851"
+     inkscape:cy="40.270572"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <title
+     id="title1">Nord Mountain Icon (Dark Badge)</title>
+  <!-- circular background -->
+  <circle
+     cx="32"
+     cy="32"
+     r="30"
+     fill="#2E3440"
+     id="circle1" />
+  <!-- back peak -->
+  <path
+     d="M10 48 L22 30 L28 48 Z"
+     fill="#5E81AC"
+     id="path1" />
+  <!-- front peak -->
+  <path
+     d="M14 48 L34 18 L54 48 Z"
+     fill="#4C566A"
+     id="path2" />
+  <!-- snowcaps -->
+  <path
+     d="m 21.933682,30.735996 -2.009745,3.024898 3.089384,0.319418 z"
+     fill="#e5e9f0"
+     id="path3"
+     style="stroke-width:0.890292" />
+  <path
+     d="m 33.991705,18.756926 -4.882316,8 h 9.764632 z"
+     fill="#eceff4"
+     id="path4"
+     style="stroke-width:1.04161" />
+</svg>
