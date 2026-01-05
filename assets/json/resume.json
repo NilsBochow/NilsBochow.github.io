@@ -23,11 +23,25 @@
   },
   "work": [
     {
+      "name": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research",
+      "position": "Postdoctoral Researcher",
+      "url": "https://www.awi.de/en/",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "summary": "Research in Earth system science, machine learning, and cryosphere.",
+      "highlights": [
+        "Generative models",
+        "Machine learning",
+        "Ice-sheet modeling",
+        "Tipping Elements"
+      ]
+    },
+    {
       "name": "UiT The Arctic University of Norway, Tromsø, Norway",
       "position": "Researcher",
       "url": "https://uit.no/",
       "startDate": "2024-06-18",
-      "endDate": "",
+      "endDate": "2025-12-31",
       "summary": "Research in Earth system science, machine learning, and cryosphere.",
       "highlights": [
         "Generative models",
