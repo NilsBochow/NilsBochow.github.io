@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-02-19 15:59:00-0400
+date: 2026-02-19 13:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Another new [pre-print](https://arxiv.org/abs/2602.16515) out! Using generative models to reconstruct historical climate fields.
+New paper [The implications of overshooting 1.5 °C on Earth system tipping elements—a review](https://iopscience.iop.org/article/10.1088/1748-9326/ae3cad) out in Environmental Research Letters today!

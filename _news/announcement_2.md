@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-10-13 10:40:00-0400
+date: 2026-02-18 15:40:00-0400
 inline: true
 related_posts: false
 ---
 
-Happy to announce that the [Global Tipping points report 2025](https://global-tipping-points.org/download/1418/), which I contributed to, is out today!
+New pre-print [Informing low-order models of climate tipping elements using outputs from higher-complexity Earth system models](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-614/) out today!
