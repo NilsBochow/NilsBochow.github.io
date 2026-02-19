@@ -28,10 +28,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-pre-print-out-using-generative-models-to-downscale-the-surface-mass-balance-of-the-gris",
-          title: 'New pre-print out! Using generative models to downscale the surface mass balance of...',
-          description: "",
-          section: "News",},{id: "news-new-paper-out-in-nature-geoscience-we-show-that-there-is-observational-evidence-that-the-four-major-tipping-elements-gris-amoc-amazon-and-south-american-monsoon-system-destabilised-over-the-last-decades",
+            },},{id: "news-new-paper-out-in-nature-geoscience-we-show-that-there-is-observational-evidence-that-the-four-major-tipping-elements-gris-amoc-amazon-and-south-american-monsoon-system-destabilised-over-the-last-decades",
           title: 'New paper out in Nature Geoscience! We show that there is observational evidence...',
           description: "",
           section: "News",},{id: "news-happy-to-announce-that-the-global-tipping-points-report-2025-which-i-contributed-to-is-out-today",
@@ -39,6 +36,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-new-pre-print-informing-low-order-models-of-climate-tipping-elements-using-outputs-from-higher-complexity-earth-system-models-out-today",
           title: 'New pre-print Informing low-order models of climate tipping elements using outputs from higher-complexity...',
+          description: "",
+          section: "News",},{id: "news-another-new-pre-print-out-using-generative-models-to-reconstruct-historical-climate-fields",
+          title: 'Another new pre-print out! Using generative models to reconstruct historical climate fields.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
