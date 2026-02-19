@@ -28,14 +28,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-paper-out-in-nature-geoscience-we-show-that-there-is-observational-evidence-that-the-four-major-tipping-elements-gris-amoc-amazon-and-south-american-monsoon-system-destabilised-over-the-last-decades",
-          title: 'New paper out in Nature Geoscience! We show that there is observational evidence...',
-          description: "",
-          section: "News",},{id: "news-happy-to-announce-that-the-global-tipping-points-report-2025-which-i-contributed-to-is-out-today",
+            },},{id: "news-happy-to-announce-that-the-global-tipping-points-report-2025-which-i-contributed-to-is-out-today",
           title: 'Happy to announce that the Global Tipping points report 2025, which I contributed...',
           description: "",
           section: "News",},{id: "news-new-pre-print-informing-low-order-models-of-climate-tipping-elements-using-outputs-from-higher-complexity-earth-system-models-out-today",
           title: 'New pre-print Informing low-order models of climate tipping elements using outputs from higher-complexity...',
+          description: "",
+          section: "News",},{id: "news-new-paper-the-implications-of-overshooting-1-5-c-on-earth-system-tipping-elements-a-review-out-in-environmental-research-letters-today",
+          title: 'New paper The implications of overshooting 1.5 °C on Earth system tipping elements—a...',
           description: "",
           section: "News",},{id: "news-another-new-pre-print-out-using-generative-models-to-reconstruct-historical-climate-fields",
           title: 'Another new pre-print out! Using generative models to reconstruct historical climate fields.',
