@@ -28,10 +28,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-happy-to-announce-that-the-global-tipping-points-report-2025-which-i-contributed-to-is-out-today",
-          title: 'Happy to announce that the Global Tipping points report 2025, which I contributed...',
-          description: "",
-          section: "News",},{id: "news-new-pre-print-informing-low-order-models-of-climate-tipping-elements-using-outputs-from-higher-complexity-earth-system-models-out-today",
+            },},{id: "news-new-pre-print-informing-low-order-models-of-climate-tipping-elements-using-outputs-from-higher-complexity-earth-system-models-out-today",
           title: 'New pre-print Informing low-order models of climate tipping elements using outputs from higher-complexity...',
           description: "",
           section: "News",},{id: "news-new-paper-the-implications-of-overshooting-1-5-c-on-earth-system-tipping-elements-a-review-out-in-environmental-research-letters-today",
@@ -39,6 +36,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-another-new-pre-print-out-using-generative-models-to-reconstruct-historical-climate-fields",
           title: 'Another new pre-print out! Using generative models to reconstruct historical climate fields.',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-generative-downscaling-of-greenland-s-surface-mass-balance-and-temperature-was-published-today",
+          title: 'Our paper on generative downscaling of Greenland’s surface mass balance and temperature was...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
