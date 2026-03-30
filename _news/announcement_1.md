@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-10-13 10:40:00-0400
+date: 2026-03-30 8:40:00-0400
 inline: true
 related_posts: false
 ---
 
-Happy to announce that the [Global Tipping points report 2025](https://global-tipping-points.org/download/1418/), which I contributed to, is out today!
+Our paper on [generative downscaling of Greenland's surface mass balance and temperature](https://tc.copernicus.org/articles/20/1841/2026/) was published today! 

@@ -9,9 +9,9 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Tromsø",
-      "countryCode": "NO",
-      "region": "Troms"
+      "city": "Potsdam",
+      "countryCode": "DE",
+      "region": "Brandenburg"
     },
     "profiles": [
       {
@@ -91,6 +91,21 @@
   ],
 
   "publications": [
+
+    {
+      "name": "Physics-constrained generative machine learning-based high-resolution downscaling of Greenland's surface mass balance and surface temperature",
+      "publisher": "The Cryosphere",
+      "releaseDate": "2026",
+      "url": "https://tc.copernicus.org/articles/20/1841/2026/",
+      "summary": "Authors: Bochow, N., Hess, P., and Robinson, A. DOI: 10.5194/tc-20-1841-2026."
+    },
+    {
+      "name": "The implications of overshooting 1.5 °C on Earth system tipping elements—a review",
+      "publisher": "Environmental Research Letters",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1088/1748-9326/ae3cad",
+      "summary": "Authors: Ritchie, P.D.L., Steinert, N.J., Abrams, J.F., Alkhayuon, H., Arnscheidt, C.W., Bochow, N., Chapman, R.R., Clarke, J., Dennis, D.P., Donges, J.F., Flores, B.M., Garbe, J., Högner, A., Huntingford, C., Lenton, T.M., Lohmann, J., Lux-Gottschalk, K., Milkoreit, M., Möller, T., Pearce-Kelly, P., Pereira, L., Quinn, C., Schleussner, C.-F., Stuenzi, S.M., Swingedouw, D., Van der Laan, L.N., Zickfeld, K., Wunderling, N. DOI: 10.1088/1748-9326/ae3cad."
+    },
     {
       "name": "Destabilization of four coupled Earth system tipping elements",
       "publisher": "Nature Geoscience",
@@ -189,6 +204,13 @@
   },
 "community_outreach": {
   "outreach": [
+        {
+      "year": 2026,
+      "role": "Invited Talk",
+      "topic": "Climate change (for 11–12th grade students and teachers)",
+      "venue": "Kopernikus Gymnasium Blankenfelde",
+      "location": "Blankenfelde, Germany"
+    },
     {
       "year": 2025,
       "role": "Invited Talk",
